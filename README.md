@@ -7,8 +7,12 @@ I got bored on a Sunday so I wrote a Sudoku solver in python. It's probably not 
 
 All "unknown" values are initialized to -1, for lack of something better. Theres probably a better way to do this -- i.e. use a csv or something which can store null entries, but whatever.
 
-To use the solver, run in Python (requires numpy -- again, you could probably write this to just run on python lists, but :man_shrugging:) with the following commands:
+To use the solver, run in Python with the following commands:
 
 > python
+>
 > import SudokuSnake
+>
 > SudokuSnake.SudokuSnake ("test.dat")
+
+Note: requires numpy -- you could probably write this to just use python lists, but :man_shrugging:
